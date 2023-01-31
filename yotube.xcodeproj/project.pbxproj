@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B188056284F27E000863019 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B188055284F27E000863019 /* settingViewController.swift */; };
+		4B6CEB03282B7B9E000C5254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CEB02282B7B9E000C5254 /* AppDelegate.swift */; };
+		4B6CEB05282B7B9E000C5254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CEB04282B7B9E000C5254 /* SceneDelegate.swift */; };
+		4B6CEB07282B7B9E000C5254 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CEB06282B7B9E000C5254 /* ViewController.swift */; };
+		4B6CEB0A282B7B9E000C5254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6CEB08282B7B9E000C5254 /* Main.storyboard */; };
+		4B6CEB0C282B7BA0000C5254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6CEB0B282B7BA0000C5254 /* Assets.xcassets */; };
+		4B6CEB0F282B7BA0000C5254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6CEB0D282B7BA0000C5254 /* LaunchScreen.storyboard */; };
+		4B6CEB1A282B7BA0000C5254 /* yotubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CEB19282B7BA0000C5254 /* yotubeTests.swift */; };
+		4B6CEB24282B7BA0000C5254 /* yotubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CEB23282B7BA0000C5254 /* yotubeUITests.swift */; };
+		4B6CEB26282B7BA0000C5254 /* yotubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CEB25282B7BA0000C5254 /* yotubeUITestsLaunchTests.swift */; };
+		4BA825652845E05500AA3AF4 /* Memoview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA825642845E05500AA3AF4 /* Memoview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B6CEB16282B7BA0000C5254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B6CEAF7282B7B9E000C5254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6CEAFE282B7B9E000C5254;
+			remoteInfo = yotube;
+		};
+		4B6CEB20282B7BA0000C5254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B6CEAF7282B7B9E000C5254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6CEAFE282B7B9E000C5254;
+			remoteInfo = yotube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B188055284F27E000863019 /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		4B6CEAFF282B7B9E000C5254 /* yotube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yotube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6CEB02282B7B9E000C5254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B6CEB04282B7B9E000C5254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B6CEB06282B7B9E000C5254 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B6CEB09282B7B9E000C5254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B6CEB0B282B7BA0000C5254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B6CEB0E282B7BA0000C5254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B6CEB10282B7BA0000C5254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6CEB15282B7BA0000C5254 /* yotubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yotubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6CEB19282B7BA0000C5254 /* yotubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yotubeTests.swift; sourceTree = "<group>"; };
+		4B6CEB1F282B7BA0000C5254 /* yotubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yotubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6CEB23282B7BA0000C5254 /* yotubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yotubeUITests.swift; sourceTree = "<group>"; };
+		4B6CEB25282B7BA0000C5254 /* yotubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yotubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BA825642845E05500AA3AF4 /* Memoview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B6CEAFC282B7B9E000C5254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6CEB12282B7BA0000C5254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6CEB1C282B7BA0000C5254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B6CEAF6282B7B9E000C5254 = {
+			isa = PBXGroup;
+			children = (
+				4B6CEB01282B7B9E000C5254 /* yotube */,
+				4B6CEB18282B7BA0000C5254 /* yotubeTests */,
+				4B6CEB22282B7BA0000C5254 /* yotubeUITests */,
+				4B6CEB00282B7B9E000C5254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B6CEB00282B7B9E000C5254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B6CEAFF282B7B9E000C5254 /* yotube.app */,
+				4B6CEB15282B7BA0000C5254 /* yotubeTests.xctest */,
+				4B6CEB1F282B7BA0000C5254 /* yotubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B6CEB01282B7B9E000C5254 /* yotube */ = {
+			isa = PBXGroup;
+			children = (
+				4B6CEB02282B7B9E000C5254 /* AppDelegate.swift */,
+				4B6CEB04282B7B9E000C5254 /* SceneDelegate.swift */,
+				4B6CEB06282B7B9E000C5254 /* ViewController.swift */,
+				4B6CEB08282B7B9E000C5254 /* Main.storyboard */,
+				4B188055284F27E000863019 /* settingViewController.swift */,
+				4B6CEB0B282B7BA0000C5254 /* Assets.xcassets */,
+				4B6CEB0D282B7BA0000C5254 /* LaunchScreen.storyboard */,
+				4B6CEB10282B7BA0000C5254 /* Info.plist */,
+				4BA825642845E05500AA3AF4 /* Memoview.swift */,
+			);
+			path = yotube;
+			sourceTree = "<group>";
+		};
+		4B6CEB18282B7BA0000C5254 /* yotubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B6CEB19282B7BA0000C5254 /* yotubeTests.swift */,
+			);
+			path = yotubeTests;
+			sourceTree = "<group>";
+		};
+		4B6CEB22282B7BA0000C5254 /* yotubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B6CEB23282B7BA0000C5254 /* yotubeUITests.swift */,
+				4B6CEB25282B7BA0000C5254 /* yotubeUITestsLaunchTests.swift */,
+			);
+			path = yotubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B6CEAFE282B7B9E000C5254 /* yotube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6CEB29282B7BA0000C5254 /* Build configuration list for PBXNativeTarget "yotube" */;
+			buildPhases = (
+				4B6CEAFB282B7B9E000C5254 /* Sources */,
+				4B6CEAFC282B7B9E000C5254 /* Frameworks */,
+				4B6CEAFD282B7B9E000C5254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yotube;
+			productName = yotube;
+			productReference = 4B6CEAFF282B7B9E000C5254 /* yotube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B6CEB14282B7BA0000C5254 /* yotubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6CEB2C282B7BA0000C5254 /* Build configuration list for PBXNativeTarget "yotubeTests" */;
+			buildPhases = (
+				4B6CEB11282B7BA0000C5254 /* Sources */,
+				4B6CEB12282B7BA0000C5254 /* Frameworks */,
+				4B6CEB13282B7BA0000C5254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B6CEB17282B7BA0000C5254 /* PBXTargetDependency */,
+			);
+			name = yotubeTests;
+			productName = yotubeTests;
+			productReference = 4B6CEB15282B7BA0000C5254 /* yotubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B6CEB1E282B7BA0000C5254 /* yotubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6CEB2F282B7BA0000C5254 /* Build configuration list for PBXNativeTarget "yotubeUITests" */;
+			buildPhases = (
+				4B6CEB1B282B7BA0000C5254 /* Sources */,
+				4B6CEB1C282B7BA0000C5254 /* Frameworks */,
+				4B6CEB1D282B7BA0000C5254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B6CEB21282B7BA0000C5254 /* PBXTargetDependency */,
+			);
+			name = yotubeUITests;
+			productName = yotubeUITests;
+			productReference = 4B6CEB1F282B7BA0000C5254 /* yotubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B6CEAF7282B7B9E000C5254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4B6CEAFE282B7B9E000C5254 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4B6CEB14282B7BA0000C5254 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4B6CEAFE282B7B9E000C5254;
+					};
+					4B6CEB1E282B7BA0000C5254 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4B6CEAFE282B7B9E000C5254;
+					};
+				};
+			};
+			buildConfigurationList = 4B6CEAFA282B7B9E000C5254 /* Build configuration list for PBXProject "yotube" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B6CEAF6282B7B9E000C5254;
+			productRefGroup = 4B6CEB00282B7B9E000C5254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B6CEAFE282B7B9E000C5254 /* yotube */,
+				4B6CEB14282B7BA0000C5254 /* yotubeTests */,
+				4B6CEB1E282B7BA0000C5254 /* yotubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B6CEAFD282B7B9E000C5254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6CEB0F282B7BA0000C5254 /* LaunchScreen.storyboard in Resources */,
+				4B6CEB0C282B7BA0000C5254 /* Assets.xcassets in Resources */,
+				4B6CEB0A282B7B9E000C5254 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6CEB13282B7BA0000C5254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6CEB1D282B7BA0000C5254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B6CEAFB282B7B9E000C5254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6CEB07282B7B9E000C5254 /* ViewController.swift in Sources */,
+				4B6CEB03282B7B9E000C5254 /* AppDelegate.swift in Sources */,
+				4B188056284F27E000863019 /* settingViewController.swift in Sources */,
+				4BA825652845E05500AA3AF4 /* Memoview.swift in Sources */,
+				4B6CEB05282B7B9E000C5254 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6CEB11282B7BA0000C5254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6CEB1A282B7BA0000C5254 /* yotubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6CEB1B282B7BA0000C5254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6CEB26282B7BA0000C5254 /* yotubeUITestsLaunchTests.swift in Sources */,
+				4B6CEB24282B7BA0000C5254 /* yotubeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B6CEB17282B7BA0000C5254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B6CEAFE282B7B9E000C5254 /* yotube */;
+			targetProxy = 4B6CEB16282B7BA0000C5254 /* PBXContainerItemProxy */;
+		};
+		4B6CEB21282B7BA0000C5254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B6CEAFE282B7B9E000C5254 /* yotube */;
+			targetProxy = 4B6CEB20282B7BA0000C5254 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B6CEB08282B7B9E000C5254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B6CEB09282B7B9E000C5254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B6CEB0D282B7BA0000C5254 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B6CEB0E282B7BA0000C5254 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B6CEB27282B7BA0000C5254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B6CEB28282B7BA0000C5254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6CEB2A282B7BA0000C5254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY6TL6FWT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yotube/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riichi.yotube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B6CEB2B282B7BA0000C5254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY6TL6FWT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yotube/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riichi.yotube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B6CEB2D282B7BA0000C5254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riichi.yotubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yotube.app/yotube";
+			};
+			name = Debug;
+		};
+		4B6CEB2E282B7BA0000C5254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riichi.yotubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yotube.app/yotube";
+			};
+			name = Release;
+		};
+		4B6CEB30282B7BA0000C5254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riichi.yotubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yotube;
+			};
+			name = Debug;
+		};
+		4B6CEB31282B7BA0000C5254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riichi.yotubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yotube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B6CEAFA282B7B9E000C5254 /* Build configuration list for PBXProject "yotube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6CEB27282B7BA0000C5254 /* Debug */,
+				4B6CEB28282B7BA0000C5254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6CEB29282B7BA0000C5254 /* Build configuration list for PBXNativeTarget "yotube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6CEB2A282B7BA0000C5254 /* Debug */,
+				4B6CEB2B282B7BA0000C5254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6CEB2C282B7BA0000C5254 /* Build configuration list for PBXNativeTarget "yotubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6CEB2D282B7BA0000C5254 /* Debug */,
+				4B6CEB2E282B7BA0000C5254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6CEB2F282B7BA0000C5254 /* Build configuration list for PBXNativeTarget "yotubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6CEB30282B7BA0000C5254 /* Debug */,
+				4B6CEB31282B7BA0000C5254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B6CEAF7282B7B9E000C5254 /* Project object */;
+}
